@@ -1,0 +1,27 @@
+{
+  "name": "telegram-translator",
+  "version": "1.0.0",
+  "description": "Телеграм бот переводчик, RU &lt;=> EN",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salmurzaev/Telegram-Translator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salmurzaev/Telegram-Translator/issues"
+  },
+  "homepage": "https://github.com/Salmurzaev/Telegram-Translator#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "telegraf": "^4.4.2",
+    "translation-google": "^0.2.1"
+  }
+}
